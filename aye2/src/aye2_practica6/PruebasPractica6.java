@@ -42,6 +42,10 @@ public class PruebasPractica6 {
 		v2.setZ(3);
 		System.out.println(Vector3D.igual(v1, v2));
 		
+		//prueba monedero
+		
+		
+		
 	}
 
 }
