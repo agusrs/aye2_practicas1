@@ -32,6 +32,16 @@ public class PruebasPractica6 {
 		p2.setY(25);
 		System.out.println(Punto.igual(p1, p2));
 		
+		//ejercicio 9 Prueba vector3d
+		Vector3D v1 = new Vector3D(8, 5, 3);
+		Vector3D v2 = new Vector3D(1, 3, 5);
+				
+		Vector3D.suma(v1, v2);
+		v2.setX(8);
+		v2.setY(5);
+		v2.setZ(3);
+		System.out.println(Vector3D.igual(v1, v2));
+		
 	}
 
 }
