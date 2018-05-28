@@ -40,7 +40,7 @@ public class Hora {
 
 	@Override
 	public String toString() {
-		return "Hora " + String.format("", horas)  + " : " + minutos + " : " + segundos;
+		return "Hora " + String.format("%02d", horas)  + " : " + minutos + " : " + segundos;
 	}
 	
 	public void clone(Hora h){
