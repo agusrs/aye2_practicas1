@@ -9,9 +9,9 @@ public class SistemaEscuela {
 	public static void main(String[] args) {
 		
 		//Arreglo estatico de personas
-		Persona[] aPersona = new Persona[LONGITUD_ARREGLO];
+		PersonaEj2[] aPersona = new PersonaEj2[LONGITUD_ARREGLO];
 		
-		aPersona[0] = new Empleado();
+		aPersona[0] = new EmpleadoEj2();
 		aPersona[1] = new Alumno();
 		
 		for (int i = 0; i < aPersona.length; i++) {
@@ -19,16 +19,16 @@ public class SistemaEscuela {
 		}
 		
 		//Arreglo dinamico de personas
-		ArrayList<Persona> aPersona2 = new ArrayList<>();
-		aPersona2.add(new Empleado());
-		aPersona2.add(new Empleado());
+		ArrayList<PersonaEj2> aPersona2 = new ArrayList<>();
+		aPersona2.add(new EmpleadoEj2());
+		aPersona2.add(new EmpleadoEj2());
 		aPersona2.add(new Alumno());
 		
 		for (int i = 0; i < aPersona2.size(); i++) {
 			System.out.println(i + ": " + aPersona2.get(i));
 		}
 		
-		for (Persona p : aPersona2) {
+		for (PersonaEj2 p : aPersona2) {
 			System.out.println(p);
 		}
 		

@@ -1,6 +1,6 @@
 package aye2_practica7;
 
-public class Alumno extends Persona {
+public class Alumno extends PersonaEj2 {
 	private int matricula;
 	private int mensualidad;
 	

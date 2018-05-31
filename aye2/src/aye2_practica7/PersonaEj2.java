@@ -2,12 +2,12 @@ package aye2_practica7;
 
 import java.util.Date;
 
-public abstract class Persona {
+public abstract class PersonaEj2 {
 	protected String nombre;
 	protected int dni;
 	protected Date fechaNacimiento;
 	
-	public Persona() {
+	public PersonaEj2() {
 		nombre = new String("");
 		fechaNacimiento = new Date();
 	}

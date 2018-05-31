@@ -28,7 +28,7 @@ public class PruebasPractica6 {
 		Punto p2 = new Punto(21, 30);
 		
 		Punto.suma(p1, p2);
-		p2.setX(18);
+		p2.setX(18); 
 		p2.setY(25);
 		System.out.println(Punto.igual(p1, p2));
 		

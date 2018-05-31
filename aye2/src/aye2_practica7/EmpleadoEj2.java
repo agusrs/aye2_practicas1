@@ -1,6 +1,6 @@
 package aye2_practica7;
 
-public class Empleado extends Persona{
+public class EmpleadoEj2 extends PersonaEj2{
 	private int legajo;
 	private int salario;
 	
