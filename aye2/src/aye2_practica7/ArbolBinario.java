@@ -3,7 +3,7 @@ package aye2_practica7;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArbolBinario<T extends Comparable<T>> implements Comparable<ArbolBinario> {
+public class ArbolBinario<T extends Comparable<T>> implements Comparable<ArbolBinario<T>> {
 	private T raiz;
 	private ArbolBinario<T> si;
 	private ArbolBinario<T> sd;
