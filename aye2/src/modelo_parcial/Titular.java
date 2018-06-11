@@ -41,9 +41,6 @@ public class Titular {
 	}
 
 	public void setEmail(String email) throws InvalidEmailException {
-		if () {
-			throw InvalidEmailException();;
-		}
 		this.email = email;	
 	}
 
