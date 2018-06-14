@@ -1,6 +1,7 @@
-package modelo_parcial;
+package ejemploparcial;
 
 public class Titular {
+
 	private String nombre;
 	private String apellido;
 	private int edad;
@@ -41,7 +42,8 @@ public class Titular {
 	}
 
 	public void setEmail(String email) throws InvalidEmailException {
-		this.email = email;	
+		// TODO: Validar el mail!
+		this.email = email;
 	}
 
 	public String getDocumento() {
@@ -51,6 +53,7 @@ public class Titular {
 	public void setDocumento(String documento) {
 		this.documento = documento;
 	}
+	
 	
 	
 }
